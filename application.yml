@@ -1,14 +1,14 @@
-﻿spring:
-	profiles:
-		active:
-			- dev
+spring:
+    profiles:
+        active:
+            - dev
 ---
 spring:
-	profiles: dev
-	application:
-		name: microservicecloud_config_pdmi_dev
+    profiles: dev
+        application:
+            name: microservicecloud_config_pdmi_dev
 ---
 spring:
-	profiles: test
-	application:
-		name: microservicecloud_config_pdmi_test
+    profiles: test
+        application:
+            name: microservicecloud_config_pdmi_test
