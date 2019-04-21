@@ -5,10 +5,10 @@ spring:
 ---
 spring:
     profiles: dev
-        application:
-            name: microservicecloud_config_pdmi_dev
+    application:
+        name: microservicecloud_config_pdmi_dev
 ---
 spring:
     profiles: test
-        application:
-            name: microservicecloud_config_pdmi_test
+    application:
+        name: microservicecloud_config_pdmi_test
